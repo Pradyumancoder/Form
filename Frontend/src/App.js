@@ -1,6 +1,6 @@
 import React from 'react';
 import RegistrationForm from './Components/RegistrationForm/RegistrationForm';
-import AdminPage from './Components/AdminPage/AdminPage';
+
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     <div className="App">
       <h1>Registration App</h1>
       <RegistrationForm />
-      {/* <AdminPage /> */}
+ 
     </div>
   );
 };
